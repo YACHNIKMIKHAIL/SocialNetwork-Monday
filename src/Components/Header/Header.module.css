@@ -1,0 +1,13 @@
+.header {
+grid-area: header;
+    background-color: magenta;
+    width: 980px;
+    height: 85px;
+    align-items: start;
+    margin: 10px 5px 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(143, 153, 153, 0.5);
+    /*background-color: rgba(226, 124, 54, 0.5);*/
+
+
+}

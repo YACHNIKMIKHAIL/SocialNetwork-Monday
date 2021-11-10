@@ -1,0 +1,12 @@
+.content {
+    grid-area: content;
+    background-color: lightyellow;
+    width: 785px;
+    height: 1340px;
+    margin: 5px 5px 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(143, 153, 153, 0.5);
+    overflow: auto;
+    /*background-color: rgba(40, 51, 58, 0.5);*/
+
+}
