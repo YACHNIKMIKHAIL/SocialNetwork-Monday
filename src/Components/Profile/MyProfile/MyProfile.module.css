@@ -4,3 +4,17 @@
     border-radius: 5px;
     background-color: rgba(31, 43, 47, 0.5);
 }
+img{
+    width: 225px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px auto auto 10px;
+}
+.bio {
+    color: orange;
+    font-size: 50px;
+}
+.age{
+    color: white;
+    font-size: 30px;
+}

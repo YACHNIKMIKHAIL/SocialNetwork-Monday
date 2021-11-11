@@ -1,10 +1,20 @@
 import React from "react";
 import style from './Messages.module.css'
+import {MyMessage} from "./MyMessage/MyMessage";
+import {FriedMessage} from "./FriedMessage/FriedMessage";
+import {FriendMessageType, MessagesType, MyMessageType} from "../redux/state";
+import s from "./MyMessage/MyMessage.module.css";
 
-export const Messages = () => {
+type MessagesPropsType={
+    myMessages:Array<MyMessageType>
+    friendMessages:Array<FriendMessageType>
+}
+export const Messages = (props: MessagesPropsType) => {
+
     return (
         <div className={style.content}>
-            It is Messages
+            <MyMessage myMessage={props.myMessages}/>
+            <FriedMessage friendMessages={props.friendMessages}/>
         </div>
     )
 }
