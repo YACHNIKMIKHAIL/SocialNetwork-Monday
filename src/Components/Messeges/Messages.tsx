@@ -15,6 +15,13 @@ export const Messages = (props: MessagesPropsType) => {
         <div className={style.content}>
             <MyMessage myMessage={props.myMessages}/>
             <FriedMessage friendMessages={props.friendMessages}/>
+            <MyMessage myMessage={props.myMessages}/>
+            <FriedMessage friendMessages={props.friendMessages}/>
+            <FriedMessage friendMessages={props.friendMessages}/>
+            <FriedMessage friendMessages={props.friendMessages}/>
+            <FriedMessage friendMessages={props.friendMessages}/>
+            <FriedMessage friendMessages={props.friendMessages}/>
+            <MyMessage myMessage={props.myMessages}/><MyMessage myMessage={props.myMessages}/>
         </div>
     )
 }

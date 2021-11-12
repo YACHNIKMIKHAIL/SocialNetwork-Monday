@@ -3,7 +3,6 @@
     border-radius: 5px;
     background-color: rgba(31, 43, 47, 0.5);
     display: grid;
-    overflow: auto;
 }
 
 .post {

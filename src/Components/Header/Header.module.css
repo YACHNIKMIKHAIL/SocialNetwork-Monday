@@ -1,6 +1,5 @@
 .header {
-grid-area: header;
-    background-color: magenta;
+    grid-area: header;
     width: 980px;
     height: 85px;
     align-items: start;
@@ -8,6 +7,12 @@ grid-area: header;
     border-radius: 5px;
     background-color: rgba(143, 153, 153, 0.5);
     /*background-color: rgba(226, 124, 54, 0.5);*/
-
-
+}
+.text{
+    font-size: 40px;
+    color: rgba(226, 124, 54, 0.9);
+    position: relative;
+    top: 20%;
+    left: 45%;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
